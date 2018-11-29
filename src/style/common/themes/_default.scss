@@ -1,0 +1,60 @@
+@import '../variables';
+body {
+    color: $textColor2;
+    background: $white;
+}
+
+a {
+    color: $primary;
+}
+
+a:hover,
+a:focus {
+    color: $anchorHover;
+}
+
+
+.btn-primary {
+    background-color: $primary;
+    color: $white;
+    border: 1px solid $primary;
+    &:hover,
+    &:focus {
+        background-color: $btnHover;
+        border-color: $btnHover;
+    }
+}
+
+.btn-default {
+    background-color: $white;
+    color: $dark2;
+    border: 1px solid $defaultbtnborder;
+    transition: all 0.3s ease;
+    &:hover,
+    &:focus {
+        background-color: $btnHover;
+        border-color: $btnHover;
+        color: $white;;
+    }
+}
+
+.btn-blueBorder {
+    background-color: $white;
+    color: $primary;
+    border: 1px solid $primary;
+    transition: all 0.3s ease;
+    &:hover,
+    &:focus {
+        background-color: $btnHover;
+        border-color: $btnHover;
+        color: $white;
+    }
+}
+
+.btn-disabled {
+    background-color: $sectionBG;
+    color: rgba($dark3, .5);
+    border: 1px solid $sectionBG;
+}
+
+

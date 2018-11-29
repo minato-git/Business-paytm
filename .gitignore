@@ -1,0 +1,8 @@
+node_modules/
+jspm_packages/
+
+
+public/
+.cache
+src/.DS_Store
+.DS_Store

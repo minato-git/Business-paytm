@@ -1,0 +1,41 @@
+@import '../../style/common/variables';
+.header {
+	height: 56px;
+	background: #fff;
+	padding: 0 1px 0 9px;
+	border-bottom: 1px solid #e6ebf3;
+	position: relative;
+	z-index: 99;
+	// min-width: 1279px;
+}
+.mob-menu-wrap{
+ a{
+	 width:24px;
+	 height:24px;
+	 display: inline-block;
+ }
+}
+.menuList{
+	
+}
+.top-menu-link{
+	margin-right:32px;
+	&:last-child{
+		margin-right:42px;
+	}
+	&>a{
+		text-transform: uppercase;
+		font-size:1.2rem;
+		font-weight: normal;
+		color:$dark2;
+	}
+}
+/* banner section styling */
+.banner-wrapper{
+	background-image: linear-gradient(to top, #00b1ff, #0051be 53%, #00319c 67%, #00091d);
+	min-height:100px;
+}
+.banner-inner{
+ padding:15px;
+ color:#fff;
+}

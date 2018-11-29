@@ -1,0 +1,148 @@
+.footer {
+    z-index: 1;
+    bottom: 0;
+    padding: 20px 24px 0;
+    position: relative;
+    background: #f6f8fc;
+    width: 100%;
+    z-index: 1;
+    padding: 0px 0 0;
+    
+}
+.footerList {
+    li {
+        font-size: 1.4rem;
+        text-align: center;
+        width:33.33%;
+        display: inline-block;
+        margin:6px 0;
+        a {
+            font-size:1.4rem;
+            color:#182223;
+            line-height: 2.0rem;
+        }
+        
+    }
+}
+.footer-top{
+    padding-top:58px;
+}
+
+.footer-bottom{
+    position:relative;
+    padding:46px 24px 26px;
+    min-height: 72px;
+    &:after,
+    &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+    &:before {
+        border-bottom: 10px solid #012b72;
+        top: 10px;
+    }
+    &:after {
+        border-bottom: 10px solid #00b9f5;
+        top: 0;
+    }
+}
+.company-info{
+text-align:center;
+padding:32px 70px;
+flex-grow: 1;
+    p{
+        font-size:1.2rem;
+        line-height: 1.6rem;
+    }
+    svg{
+        width:73px;
+    }
+}
+.info-heading{
+    font-size:1.4rem;
+    line-height: 2.0rem;
+    color:#182223;
+    margin-top:12px;
+    margin-bottom:32px;
+}
+.signup-box{
+    background-image: linear-gradient(to top, #00b1ff, #0051be 53%, #00319c 67%, #00091d);
+    padding:18px 24px;
+    
+    p{
+        font-size:1.6rem;
+        color:#ffffff;
+        line-height:1.25;
+        font-weight: 800;
+        margin-right:20px;
+        width:125px;
+    }
+}
+.signup-outer-wrap{
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+@media(min-width: 768px) {
+    .footer-top{
+        padding:140px 0 110px 0;
+    }
+    .footer-inner{
+        padding:0 100px;
+        
+    }
+    .footerList {
+        li{
+            width:16.66%;
+            a{
+                font-size:1.6rem;
+                line-height: 2.0rem;
+            }
+            
+        }
+    }
+    .company-info{
+        text-align: left;
+        padding: 32px 30px 32px 0;
+        width: 22%;
+        flex-grow:unset;
+        svg{
+            width:121px;
+        }
+    }
+    .company-sitemap{
+        padding-top:32px;
+        flex-grow: 1;
+        a{
+            font-size: 1.4rem;
+            line-height: 3.0rem;
+            color:#182223;
+        }
+    }
+
+    .sitemap-box{
+        h4{
+            text-transform: uppercase;
+            font-weight: bold;
+            color:#182223;
+            margin-bottom:20px;
+        }
+       
+        
+       }
+       .signup-box{
+
+        padding:52px;
+        p{
+            width:auto;
+            font-size:3.2rem;
+            line-height:1;
+            font-weight:800;
+            margin-right:36px;
+        }
+       }
+}
